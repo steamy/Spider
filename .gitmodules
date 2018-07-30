@@ -1,0 +1,3 @@
+[submodule "db"]
+	path = db
+	url = http://121.49.110.55:8010/fanyu/db
