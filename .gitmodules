@@ -1,3 +1,9 @@
 [submodule "db"]
 	path = db
 	url = http://121.49.110.55:8010/fanyu/db
+[submodule "userSpider"]
+	path = userSpider
+	url = http://121.49.110.55:8010/fanyu/userSpider
+[submodule "web-nuxt"]
+	path = web-nuxt
+	url = http://121.49.110.55:8010/fanyu/web-nuxt
