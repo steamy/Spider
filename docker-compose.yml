@@ -10,10 +10,10 @@ services:
     container_name: spider-redis
     command: redis-server --appendonly yes
   mysql:
-    build: ./mysql
+    build: ./db/mysql
     volumes:
-      - ./mysql/data:/var/lib/mysql
-      - ./mysql/conf.d:/etc/mysql/conf.d
+      - ./db/mysql/data:/var/lib/mysql
+      - ./db/mysql/conf.d:/etc/mysql/conf.d
     environment:
       - MYSQL_DATABASE=douban
       - MYSQL_ROOT_PASSWORD=steam
